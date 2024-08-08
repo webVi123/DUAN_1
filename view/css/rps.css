@@ -1,0 +1,175 @@
+/* RESPONSIVE HEADER AND HOME*/
+@media screen and (max-width: 700px) {
+   .hdtop {
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+   }
+
+   .right, .left {
+       padding-left: 0;
+   }
+
+   .menu {
+       padding-left: 20px;
+   }
+
+   /* Add more styles for mobile devices as needed */
+}
+@media screen and (max-width: 700px) {
+   .menu a {
+       display: none;
+   }
+
+   .menu-icon {
+       font-size: 24px; /* Thay đổi kích thước biểu tượng theo ý muốn của bạn */
+       cursor: pointer;
+   }
+   .hdtop {
+      flex-direction: column;
+        align-items: center;
+   }
+   
+   .right, .left {     
+   padding-left: 0;   
+   padding-right: 0;   
+   text-align: center;
+   }
+   .headerbot {
+      position: static; /* Đặt lại vị trí của headerbot khi trên di động */
+      width: auto; /* Đặt lại chiều rộng của headerbot khi trên di động */
+  }
+  
+   .timkiem form {
+   display: flex;
+   flex-direction:row-reverse; /* Hiển thị các phần tử con theo chiều dọc */
+   align-items: center; /* Canh giữa các phần tử con */
+   justify-content: center;
+   }
+   .timkiem form input{
+      width: 0px;
+   }
+   .timkiem form input:hover{
+      width: 50px;
+   }
+   .search {
+      margin-top: 10px;
+   }
+   .timkiem{
+      margin-right: 200px;
+      padding-left: 0;
+      margin-left: 0;
+      padding-top: 10px;
+      position: relative;
+      right: 80px;
+   }
+   .menu .menu-icon{
+      margin-left: 5px;
+      padding-right: 10px;
+      color: #e0dddd;
+   }
+
+   .logo a img{
+      display: flex;
+      justify-content: center;
+      margin-left: 300px;
+   }
+   .menu{
+      padding-left: 10px;
+      padding-right: 100px;
+      padding-top: 35px;
+   }
+
+   .headerbot .icon{
+      position: relative;
+      right: 380px;
+   }
+}
+
+/* RESPONSIVE HEADER PRODUCT*/
+@media screen and (max-width: 700px) {
+   .containerfull{
+      display: flex;
+      flex-direction: column;
+   }
+   .containerfull h3{
+      text-align: left;
+      font-size: 23px;
+      margin-left: 20px;
+   }
+   #dm{ 
+      text-align: left;
+      padding-bottom: 20px;
+      padding-top: 0;
+
+   }
+   .banner2{
+      width: 390px;
+      height:auto;
+   }
+
+}
+
+/* RESPONSIVE FOOTER*/
+@media screen and (max-width: 700px) {
+   footer{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+   }
+   footer .footerleft p{
+      width: 300px;
+   }
+   footer .mn{
+      display: flex;
+      flex-direction: column;
+   }
+   footer .iconketnoi{
+      display: flex;
+      flex-direction: column;
+      left: 0;
+   }
+   .menufooter form .text{
+      width: 150px;
+   }
+   
+}
+
+/* RESPONSIVE CHITIETSP*/
+@media screen and (max-width: 700px) {
+   .ctsp_top{
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      width: 390px;
+   }
+   .form_fo1 #productForm div{
+      display: flex;
+      flex-direction: column;
+   }
+   #productForm div .themgh{
+      margin: 0;
+
+   }
+   .sp_left .img_chitiet img{
+      width: 400px;
+      height: auto;
+
+   }
+   .sp_left .chitiet_full img{
+      margin: 0;
+   }
+   .ctsp_top .sp_right{
+      margin-left: 20px;
+   }
+   .ctsp_mota {
+      width: 360px;
+      margin: 0;
+      margin-left: 20px;
+      margin-top: 20px;
+   }
+   .ctsp_danhgia{
+      margin: 0;
+      width: 390px;
+   }
+}

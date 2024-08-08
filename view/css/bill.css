@@ -1,0 +1,204 @@
+/* ĐƠN HÀNG TOP */
+.border{
+     display: flex;
+     justify-content: center;
+     padding-left: 200px;   
+}
+.border .ht{
+     margin-right: 170px;
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background-color:#FFF; 
+     border: 1px solid black;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.border .ht a{
+     color: black;
+     text-decoration: none;
+     font-size: 30px;
+}
+.border p{
+     margin-left: 10px;
+}
+.border,.donhang_bot p{
+     margin:10px;    
+}
+.border .ht:hover{
+     background: rgba(105, 202, 247, 0.966);
+     border: 1px solid black;
+}
+/* DƠN HÀNG BOT */
+.donhang_bot{
+     display: flex;
+     justify-content: center;
+     flex-shrink: 0;
+     background: #D9D9D9;
+     background-size: 100%;
+     padding-bottom: 25px;
+}
+.thongtin_left form{
+     display: flex;
+     flex-direction: column;
+     background: #FFF;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     margin: auto;
+     
+}
+
+.thongtin_left{
+     background: #FFF;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     margin-top: 39px;
+     margin-left: 20px;
+     padding-top: 5px;
+     /* height: 800px; */
+     height: auto;
+}
+
+.thongtin_left form div{
+     margin-bottom: 10px; /* Khoảng cách giữa các div chứa label và input */
+     margin-left: 10px;
+     display: flex;
+     flex-direction: column;
+ }
+ 
+
+ label {
+     margin-bottom: 5px; /* Khoảng cách giữa label và input */
+ }
+ 
+ .thongtin_left form input {
+     padding: 5px;
+     width: 670px;
+     height: 40px;
+     box-sizing: border-box;
+ }
+/* ------------------------------ */
+.thongtin_right_1{
+     background: #FFF;
+     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+     margin-top: 39px;
+     margin-left: 20px;
+     padding-top: 5px;
+     height: auto;
+}
+.thongtin_sp{
+     display: flex;
+     border-bottom: 1px solid #f0f0f0;
+     margin-bottom: 10px;
+}
+.thongtin_sp_1{
+     margin-left: 120px;
+}
+.thongtin_sp_2{
+     display: flex;
+}
+.donhang_bot p{
+     color: #000;
+     font-family: Space Grotesk;
+     font-size: 15px;
+     font-style: normal;
+     font-weight:bold;
+     line-height: normal;
+}
+.thongtin_sp_2_voucher{
+     display: flex;
+     justify-content: space-between;
+}
+.thongtin_sp_2_voucher div{
+     margin-top: 10px;
+     margin-right: 10px;
+}
+
+.thongtin_sp_2_voucher input[type="submit"]{
+     background: #000;
+     color: #FFF;
+}
+.thongtin_sp_2_vanchuyen{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+}
+
+.thongtin_sp_2_togthanhtoan{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     border-bottom: 1px solid #f0f0f0;
+     text-align: center;
+}
+
+.thongtin_sp_2_thanhtien{
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+}
+
+.thongtin_sp_2_datdon{
+     background-color:rgb(197, 52, 52) ;
+     color: #FFF;
+     margin: 10px;
+     text-align: center;
+     border: 1px solid white;
+     border-radius: 5px;
+     width: 30%;
+     height: 40px;
+margin-left: 270px;
+}
+.thongtin_sp_2_datdon:hover{
+     background:white;
+     border: 3px solid rgb(197, 52, 52) ;
+     color: black;
+     font-weight: 500;
+     
+}
+
+.dh_top h2{
+     font-family: Space Grotesk;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: bold;
+     line-height: normal;
+     padding-left: 10px;
+     color: #444444;
+     border-left: 4px red solid;
+     margin-left: 200px;
+     margin-top: 30px;
+}
+.ttdathang a{
+     color: rgb(197, 52, 52) ;
+     font-size: 20px;
+}
+.ttdathang a:hover{
+     color: rgb(12, 96, 198);
+}
+.ptthanhtoan{
+     display: flex;
+     justify-content: center;
+}
+.ptthanhtoan .ptttoan{
+     background-color: #FFF;
+     margin: 10px;
+     border: none;
+}
+.ptthanhtoan form{
+     display: flex;
+     flex-direction: column;
+     padding-bottom: 10px;
+}
+.ptthanhtoan .pttienmat{
+     display: flex;
+     flex-direction: column;
+     font-size: 12px;
+     padding-bottom: 10px;
+}
+.ptthanhtoan .pttienmat label{
+     margin: 0 auto;
+}
+.ptthanhtoan form label{
+     font-size: 12px;
+     margin: 0 auto;
+}
